@@ -122,7 +122,7 @@ if uploaded_file is not None:
                         st.write(f"Extracted data for {url}: {professor}")
 
                     # Wait for 5 seconds to avoid overloading the server
-                    time.sleep(5)
+                    time.sleep(3)
                 except Exception as e:
                     st.write(f"Error processing {url}: {e}")
 
